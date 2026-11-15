@@ -27,3 +27,5 @@ Run the notebook cells in order. The first model load downloads `mlx-community/Q
 - `scripts/prepare_data.py`: regenerates those example files; it overwrites them.
 
 The validation examples are monitored during training, so they are not an independent test. For a stronger evaluation, use a larger dataset with separate, independently written test examples.
+
+Want to use this approach for a message-routing assistant? See the [adaptation guide](docs/adapting-to-an-assistant.md) for data preparation, training, evaluation, and integration.
